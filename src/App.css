@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #ffc800;
+}
+
+/*Author: Theresa */
+.side-bar {
+  align-items: flex-end;
+  color: black;
+  flex-grow: 1;
+  text-align: end;
+}
+
+.component-bar {
+  width: 100%;
+  background-color: #1a186b;
+}
+
+.component-bar-space {
+  height: 10px;
+  width: 100%;
+  border-radius: 23px;
+}
+
+.button-group-color {
+  background-color: white;
+}
+
+.search-bar-section {
+  margin-bottom: 10px;
+  max-width: 500px;
+  text-align: center;
+  align-items: center;
+  margin-top: 70px;
+  justify-content: center;
+  margin-left: 360px;
+}
+
+.search-bar {
+  background-color: #daddd8;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-left: 13px;
+  border-style: none;
+}
+
+.title-header {
+  color: black;
+}
+
+.card-style {
+  width: "18rem";
+  margin-bottom: 12px;
+}
+
+.footer-style {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.click-icon {
+  text-align: right;
+  float: right;
+  padding-right: 2px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  border-style: none;
+}
+
+.add-form-container {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px 32px 18px 35px;
+  margin-bottom: 16px;
+}
+
+.card-badge {
+  color: #f1d008;
+}
+
+.form-row {
+  padding: 23px 0 17px 0;
+}
+
+.error {
+  color: red;
+  margin: 5px;
+  font-size: 17px;
+}
+
+.header-course-detail {
+  padding: 19px 9px 9px 21px;
+  margin: 10px 20px 0px;
+}
+
+.course-collaborator {
+  float: right;
+}
+
+.course-button {
+  margin: 0 41px;
+}
+
+.edit-field {
+  background-color: lightgray !important;
+}
+
+.course-section {
+  margin-bottom: 50px;
+  margin-top: 73px;
+}
+
+.HM-container {
+  margin-top: 77px;
+  color: black;
+  text-align: left !important;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
